@@ -1,0 +1,25 @@
+{
+  "name": "assets",
+  "version": "0.0.1",
+  "description": "corso nodejs assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmilani77/corso-nodejs-assets.git"
+  },
+  "keywords": [
+    "assets"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmilani77/corso-nodejs-assets/issues"
+  },
+  "homepage": "https://github.com/mmilani77/corso-nodejs-assets#readme",
+  "dependencies": {
+    "mongodb": "^2.1.21"
+  }
+}
