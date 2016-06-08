@@ -1,6 +1,6 @@
 {
   "name": "@michelemilani/corso-nodejs-assets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "corso nodejs assets",
   "main": "index.js",
   "scripts": {
