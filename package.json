@@ -4,7 +4,7 @@
   "description": "corso nodejs assets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "dependencies": {
     "joi": "^9.0.0-3",
     "mongodb": "^2.1.21",
+    "mongojs": "^2.4.0",
     "tap": "^5.7.2"
   },
   "devDependencies": {
