@@ -95,7 +95,7 @@ module.exports.insertAsset = function (asset, cb) {
                     return;
                 }
                 console.log('chiudo connessione');
-                db.close();
+                //            db.close();
                 cb(null, result);
                 // return;
             });
@@ -119,7 +119,7 @@ module.exports.updateAsset = function (asset_id, asset, cb) {
             return;
         }
         console.log(doc);
-        db.close();
+        //      db.close();
 
         cb(null, doc);
         return;
@@ -149,7 +149,7 @@ module.exports.queryAsset = function (asset, cb) {
                 return;
             }
             console.log(result);
-            db.close();
+            //            db.close();
             cb(null, result);
             // return;
         });
